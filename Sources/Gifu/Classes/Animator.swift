@@ -120,9 +120,9 @@ public class Animator {
 
   /// Start animating.
   func startAnimating() {
-    if frameStore?.isAnimatable ?? false {
+//    if frameStore?.isAnimatable ?? false {
       displayLink.isPaused = false
-    }
+//    }
   }
 
   /// Stop animating.
